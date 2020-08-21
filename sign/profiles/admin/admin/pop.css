@@ -1,0 +1,242 @@
+
+
+.modlld {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  opacity: 0;
+  visibility: hidden;
+  transform: scale(1.1);
+  transition: visibility 0s linear 0.25s, opacity 0.25s 0s, transform 0.25s;
+}
+.modlld-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  padding: 1rem 1.5rem;
+  width: 410px;
+  border-radius: 0.5rem;
+}
+.close-button223 {
+  float: right;
+  width: 2.5rem;
+  line-height: 2.5rem;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 0.25rem;
+  background-color: lightgray;
+}
+.close-button223:hover {
+  background-color: darkgray;
+}
+.show-modlld {
+  opacity: 1;
+  visibility: visible;
+  transform: scale(1);
+  transition: visibility 0s linear 0s, opacity 0.25s 0s, transform 0.25s;
+}
+.inputtxt{
+  height: 40px;
+  margin: 0.8em auto;
+  font-family: inherit;
+  text-transform: inherit;
+  font-size: inherit;
+border: none;
+color: black;
+background-color: rgb(206, 206, 206);
+border-radius: 25px;
+  display: block;
+  width: 100%;
+  padding: 0.4em;
+}
+.locz{
+  font-size: 40px;
+}
+.locz:hover{
+  color: #507bfc;
+  cursor: pointer;
+}
+
+.bos {
+  width: 50%;
+  font-size: 14px;
+  color: #000000;
+  background-color: #9299f5;
+  font-weight: 300;
+  padding: 8px 0;
+  border: none;
+  border-radius: 100px;
+  transition: 300ms;
+  cursor: pointer;
+}
+.bos:hover {
+  background-color: #507bfc;
+  color: white;
+  box-shadow: 0 10px 20px 0 rgba(80, 123, 252, 0.5);
+}
+.bos {
+  float: right;
+}
+
+
+
+
+
+
+.modl {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  opacity: 0;
+  visibility: hidden;
+  transform: scale(1.1);
+  transition: visibility 0s linear 0.25s, opacity 0.25s 0s, transform 0.25s;
+}
+.modl-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  padding: 1rem 1.5rem;
+  width: 410px;
+  border-radius: 0.5rem;
+}
+.close-button22 {
+  float: right;
+  width: 2.5rem;
+  line-height: 2.5rem;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 0.25rem;
+  background-color: lightgray;
+}
+.close-button22:hover {
+  background-color: darkgray;
+}
+.show-modl {
+  opacity: 1;
+  visibility: visible;
+  transform: scale(1);
+  transition: visibility 0s linear 0s, opacity 0.25s 0s, transform 0.25s;
+}
+
+
+.cent {
+  font-size: 45px;
+
+
+}
+.modl2 {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  opacity: 0;
+  visibility: hidden;
+  transform: scale(1.1);
+  transition: visibility 0s linear 0.25s, opacity 0.25s 0s, transform 0.25s;
+}
+.modl-content2 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  padding: 1rem 1.5rem;
+  width: 30rem;
+  border-radius: 0.5rem;
+}
+
+.show-modl2 {
+  opacity: 1;
+  visibility: visible;
+  transform: scale(1);
+  transition: visibility 0s linear 0s, opacity 0.25s 0s, transform 0.25s;
+}
+
+
+
+@media screen and (max-width: 700px){
+
+  .modl-content {
+    width: 95%;
+  }
+  .modlld-content {
+    width: 95%;
+  }
+  .modl-content2 {
+      width: 95%;
+    }
+}
+.stack-top{
+  z-index: 9;
+ 
+}
+.stack-below-top{
+  z-index: 8;
+ 
+}
+
+
+
+
+
+.modlld3 {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  opacity: 0;
+  visibility: hidden;
+  transform: scale(1.1);
+  transition: visibility 0s linear 0.25s, opacity 0.25s 0s, transform 0.25s;
+}
+.modlld3-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  padding: 1rem 1.5rem;
+  width: 410px;
+  border-radius: 0.5rem;
+}
+.close-button2233 {
+  float: right;
+  width: 2.5rem;
+  line-height: 2.5rem;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 0.25rem;
+  background-color: lightgray;
+}
+.close-button2233:hover {
+  background-color: darkgray;
+}
+.show-modlld3 {
+  opacity: 1;
+  visibility: visible;
+  transform: scale(1);
+  transition: visibility 0s linear 0s, opacity 0.25s 0s, transform 0.25s;
+}
+@media screen and (max-width: 700px){
+
+
+  .modlld3-content {
+    width: 95%;
+  }
+
+}

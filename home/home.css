@@ -1,0 +1,84 @@
+html {
+  height: 100%;
+  scroll-behavior: smooth;
+}
+html,
+body * {
+  box-sizing: border-box;
+  transition: background-color 1s ease;
+  font-family: "Open Sans", sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  position: relative;
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.3),
+      rgba(250, 252, 255, 0.3)
+    )
+    no-repeat center center fixed;
+  background-size: cover;
+  margin: 0;
+  overflow-x: hidden;
+}
+::-webkit-scrollbar {
+  width: 10px;
+  background-color: #333; /* Chrome Safari */
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #333;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #ff0000;
+  border-bottom-right-radius:15px;
+  
+  border-top-left-radius:15px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+h1 {
+  color: #ffffff;
+  font-size: 35px;
+  font-weight: 900;
+  text-align: center;
+}
+.panel {
+  /* min height incase content is higher than window height */
+  min-height: 100vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-family: sans-serif;
+  /* outline: 10px solid hotpink; */
+  /* turn above on to see the edge of panels */
+}
+
+/* colours */
+.color-violet {
+  background-color: #7a4eab;
+}
+.color-indigo {
+  background-color: #4332cf;
+}
+.color-blue {
+  background-color: #2f8fed;
+}
+.color-green {
+  background-color: #4dcf42;
+}
+.color-yellow {
+  background-color: #faeb33;
+}
+.color-orange {
+  background-color: #f19031;
+}
+.color-red {
+  background-color: #f2293a;
+}

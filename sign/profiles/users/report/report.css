@@ -1,0 +1,148 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,700|Montserrat:400,700);
+
+.w3-animate-opacity{animation:opac 0.8s}@keyframes opac{from{opacity:0} to{opacity:1}}
+.w3-animate-fading{animation:fading 3s}@keyframes fading{from{opacity:0} to{opacity:1}}
+
+/*/ general styles /*/
+.ro {
+    width: 60%;
+    margin-right: 5px;
+    margin-left: 5px;
+    display: inline-grid;
+}
+select.form-control:not([size]):not([multiple]) {
+    height: 36;
+}
+
+.bod {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    margin: 0;
+    padding: 0;
+    display: block;
+}
+
+.h2 {
+    color: #00026b;
+    font-weight: 600;
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+
+    
+}
+
+.h2:after {
+    content: '';
+    width: 50px;
+    height: 3px;
+    background: rgb(124, 0, 0);
+    display: block;
+    margin: 15px auto;
+    transition: all .2s ease-in-out;
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+}
+
+.h2:hover:after {
+    width: 100px;
+}
+
+
+/*/ start contact /*/
+
+.footer {
+    text-align: center;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+#contact h2{
+    font-weight: 700;
+    margin-top: 22px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.footer p {
+    margin-top: 50px;
+}
+
+.social, .footer a {
+    font-size: 30px;
+    color: #24242a;
+    margin: 10px;
+}
+
+.footer a:hover, .footer a:after, .footer a:visited .footer a:focus {
+    color: #40E0D0;
+}
+
+.copyright {
+    margin-top: 35px;
+    font-size: 14px;
+}
+
+
+/*/ end contact /*/
+
+/*/ form /*/
+
+.containe {
+ 	width: auto;
+ 	
+ }
+ 
+ .form-group {
+ 	margin-bottom: 8px;
+ }
+
+.form-control:focus {
+    border-color: #001881;
+    outline: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+ 
+ #feedbackForm {
+ 	font-size: 14px;
+	 text-align: left;
+	 color: #001881;
+ }
+
+#feedbackForm span {
+	color: #fff;
+}
+
+.input-group-addon {
+    padding: 6px 17px;
+		background-color: #001881;
+    border: #001881;
+}
+
+#feedbackSubmit {
+	background-color: #001881;
+	font-size: 16px;
+	margin: 0 auto;
+	border-color: #001881;
+	font-family: 'Montserrat', sans-serif;
+}
+
+#feedbackSubmit:hover {
+	background-color: rgb(1, 71, 129);
+	color: #fff;
+	border-color: rgb(0, 71, 138);
+}
+
+@media screen and (max-width: 700px){
+  
+    .ro {
+        width: 90%;
+       
+    }
+  }
+

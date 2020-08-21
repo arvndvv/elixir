@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+.navss {
+    margin-left: -50px!important;
+    /* padding-left: 0; */
+
+    /* list-style: none; */
+}
+.col-lg-4 {
+    margin: 10px!important;
+   
+}
+.rowg {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -30%;
+    margin-left: 10%;
+}
+@media screen and (max-width: 700px){
+  
+	.rowg {
+
+		margin-right: -10%;
+		margin-left: 0%;
+	}
+  }
+#client{
+	margin-top: 15px!important;
+}
+.client-title{
+	   font-family: 'Poppins', sans-serif;
+
+}
+.client-title h5{
+	font-weight: 900;
+   font-family: 'Poppins', sans-serif;
+}
+.right-area{
+	margin-left: 200px;
+position: absolute; 
+top: 10px;
+}
+.str li{
+	margin-right: 10px;
+}
+#clients{
+	margin-top: 50px;
+}
+.cl{
+	margin-top: 40px!important; 
+}
+.client{
+   font-family: 'Poppins', sans-serif;
+
+}
+.middle-area a{
+	color: black;
+	font-size: 16px;
+	font-weight: 900!important; 
+}
+.middle-area{
+	margin-top: 10px;
+	margin-bottom: 10px;
+
+}
+.client p{
+	font-size: 13px;
+}
+.img-cm{
+	width: 50px;
+  border-radius: 30px;
+}
+.right-area  a{
+	color: black;
+	font-size: 12px;
+}
