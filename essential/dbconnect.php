@@ -1,10 +1,10 @@
 <?php
 /* Database credentials. Assuming you are running MySQL
 server with default setting (user 'root' with no password) */
-define('DB_SERVER', 'localhost');
-define('DB_USERNAME', 'u465180451_proelixir');
-define('DB_PASSWORD', 'proelixir@123');
-define('DB_NAME', 'u465180451_elixir');
+define('DB_SERVER', 'lh');
+define('DB_USERNAME', 'name');
+define('DB_PASSWORD', 'pw');
+define('DB_NAME', 'name');
  
 /* Attempt to connect to MySQL database */
 $con = mysqli_connect(DB_SERVER, DB_USERNAME, DB_PASSWORD, DB_NAME);
